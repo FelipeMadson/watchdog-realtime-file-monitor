@@ -1,0 +1,25 @@
+{
+  "name": "watchdog-realtime-file-monitor",
+  "version": "1.0.0",
+  "description": "Real-time cross-platform filesystem event listener with debounce buffers and recursive tree diffing",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/monitor.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "watchdog",
+    "filesystem",
+    "file-monitor",
+    "debounce",
+    "tree-indexing",
+    "fs-events"
+  ],
+  "author": "Felipe Madson",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "typescript": "5.7.2"
+  }
+}
